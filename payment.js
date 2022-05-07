@@ -21,7 +21,7 @@ function chekFun() {
   else if(userObj.card.length<16){
       alert("wrong card number")
   }
-  else if(userObj.number.length==4 && userObj.card.length==16){
+  else if(userObj.number.length==3 && userObj.card.length==16){
       window.location.href="order.html"
 
   }
