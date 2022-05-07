@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<style>
+
+    #check{
+        margin-left:1100px;
+        padding: 10px;
+        border: 0px;
+        background-color: black;
+       
+        
+    }
+    #check a{
+        text-decoration: none;
+        color: white;
+
+    }
+    #check:hover{
+        background-color: skyblue;
+    }
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: (2,1fr);
+        grid-template-rows:auto;
+        gap:10px;
+    }
+  
+    
+    #check+p{
+        color:darkcyan;
+        background-color: rgb(248, 249, 250);
+        padding: 10px;
+        border: 1px solid skyblue;
+    }
+.para2{
+        color: green;
+        background-color:rgb(2488, 249, 250);
+        padding: 10px;
+        border: 1px solid skyblue;
+    }
+    .re{
+        padding:5px 80px 5px 80px;
+        background-color: black;
+        color: white;
+    }
+  #discount{
+      font-size: 30px;
+  }
+   #pri{
+       border: none;
+   }
+   #bottom{
+       display: flex;
+       }
+   #bottom>div{
+    
+margin-right:40px;
+margin-left: 90px;
+
+   }
+   #btn{
+       height: 100px;
+   }
+   button{
+       padding: 10px;
+       background-color: black;
+       color: white;
+       border: none;
+   }
+   #info{
+       display: flex;
+       margin-top: 20px;
+    
+   }
+   #info>div{
+       margin-left: 60px;
+       border-top: 1px solid black;
+       padding: 20px;
+       
+       
+   }
+   .help{
+       width: 40%;
+   }
+   #info>div>p:hover{
+       background-color: skyblue;
+       cursor: pointer;
+       
+   }
+   #pay{
+       display: flex;
+       justify-content: space-between;
+   }
+   .product{
+       height: 200px;
+       width: 200px;
+   }
+   
+</style>
+<body>
+    <h1>Your Cart</h1>
+    <button id="check"><a href="checkout.html">CHECKOUT SECURLY NOW</a></button>
+    <p><b>Try a bestseller from EltaMD UV Lip Balm Broad-Spectrum SPF31 for only $13! </b>Add To Cart</p>
+        <p class="para2">You have qualified for: <b>Select a gift for you or someone you love when you spend $150 or more</b>-
+            Don't forget to make your selection below</p>
+            <h2></h2>
+    <p id="discount"></p>
+    <div id="container"></div>
+    <hr>
+    <!-- // bottom part -->
+    <div id="bottom">
+        <div>
+            <h4>Sign up to our email list and receive 20% off your next order</h4>
+            <button>SIGN UP</button>
+        </div>
+        <div>
+            <h4>Connect with us</h4>
+            <img id="btn" src="https://image.shutterstock.com/image-photo/kiev-ukraine-august-16-2018-260nw-1159403446.jpg"/>
+        </div>
+    </div>
+    <div id="info">
+        <div class="help">
+            <h4>Help & Informaion</h4>
+        <p>Customer servive</p>
+        <p>Delivery In formation</p>
+        <p>Return and Refund</p>
+        <p>Help center</p>
+        <p>COVID 19 Information</p>
+        <p>Accessibility</p>
+        </div>
+        <div>
+            <h4>About Skinstore</h4>
+            <p>Key Workers Discount</p>
+            <p>About us</p>
+            <p>Affiliate Programe</p>
+            <p>Brand Directory</p>
+            <p>Coupon Codes</p>
+            <p>Refer A Friend</p>
+            <p>Student Discount</p>
+            <p>Join Skinstore Expert</p>
+        </div>
+        <div>
+            <h4>Legal</h4>
+            <p>Cookies Information</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Condition</p>
+        <p>Modern slavery Statement</p></div>
+        <div>
+            <h4>How to Contact Us</h4>
+        <p>Message Us</p>
+        <p>Free Beauty Consulations</p>
+    </div>
+</div>
+<hr>
+<div id="pay">
+    <div>
+        <h1>THG</h1><p>2022 the @ Hut.com Ltd</p>
+    </div>
+    <div>
+        <p>Pay securly with</p>
+        <img id="btn"src="https://www.trekksoft.com/hs-fs/hubfs/payment-process.png?width=946&name=payment-process.png"/>
+    </div>
+</div>
+</body>
+</html>
+<script src="cart.js"></script>

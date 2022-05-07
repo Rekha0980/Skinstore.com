@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: #F2F2F2;
+      }
+      #skin{
+            background-color: white;
+            padding: 2px;
+            margin-bottom: 20px;
+        
+        }
+        #skin>p{
+            margin-top: -35px;
+        }
+        h1{
+            font-size: 50px;
+            margin-top: 0px;
+        }
+        #form{
+          width:30%;
+          height: 500px;
+        
+          padding: 20px;
+          background-color: white;
+          
+        }
+        input{
+          margin-bottom: 20px;
+          padding: 15px 180px 15px 20px;
+          
+          
+        }
+        #box2{
+          width: 30%;
+          height: 150px;
+          
+          padding: 20px;
+          background-color: white;
+        }
+        #google{
+          display: flex;
+        }
+        
+        #google>div{
+            border: 1px solid black;
+            width:50%;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            height: 50px;
+            text-align: center;
+            
+        }
+        #google>div>img{
+            height:100%;
+            width:40%;
+        }
+        #main{
+          display: flex;
+          justify-content: center;
+  
+          margin-top: 60px;
+        }
+        #main>div{
+          margin-right: 20px;
+        }
+        label{
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        #sub{
+            background-color: black;
+            color: white;
+            border: none;
+            text-align: center;
+            padding: 15px 150px 15px 150px;
+            
+        }
+        #sub:hover{
+            color: black;
+            background-color: skyblue;
+        }
+       
+    </style>
+</head>
+<body>
+  <div id="skin">
+    <h1>SkinStore</h1>
+        <p>part of LOOKFANTASTIC group</p>
+        </div>
+        <!-- form part -->
+        <div id="main">
+        
+        <div id="form">
+    <form>
+      <h2>Existing Customers</h2>
+      <label>*Email Address</label><br>
+      <input id="email" type="text" />
+      <br>
+      <label>*Password</label><br>
+      <input id="pass" type="password"/><br>
+      <p><u>FORGOTTEN YOUR PASSWORD?</u></p>
+      <input id="sub" type="submit" value="SINGN IN"/>
+      <p>Or continue with</p>
+      <div id="google">
+      <div><img src="https://ihowto.tips/wp-content/uploads/2017/07/facebook.jpg"/></div>
+      <div><img src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg"/></div>
+      </div>
+    </form>
+    </div>
+    <div id="box2">
+      <h2>New Customers</h2>
+      <input id="sub" type="submit" value="REGISTER"/>
+      
+      </div>
+      <div>
+</body>
+</html>
+<script src="login.js"></script>
+    <!-- // document.querySelector("form").addEventListener("submit", loginFun);
+    // var regdUsers = JSON.parse(localStorage.getItem("userCreds"));
+  
+    // function loginFun() {
+    //   event.preventDefault();
+    //   var enteredEmail = document.querySelector("#email").value;
+    //   var enteredPass = document.querySelector("#pass").value;
+  
+    //    var flag=false;
+    //   for (var i = 0; i < regdUsers.length; i++) {
+    //     console.log(regdUsers[i]);
+    //     if (
+    //       regdUsers[i].email == enteredEmail &&
+    //       regdUsers[i].password == enteredPass
+    //     ) {
+    //       alert("login success");
+    //       window.location.href = "index.html";
+    //       flag=true
+    //       break;
+    //     }
+    //    } 
+    //    if(flag==false){
+    //       alert("login failed");
+    //     }
+      
+    // }
+  
+   -->

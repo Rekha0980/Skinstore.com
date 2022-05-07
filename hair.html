@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Document</title>
+    <style>
+      #navbar{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        i{
+           margin-right: 10px;
+       }
+        
+        #box{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            background-color:gainsboro;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+      
+        #container {
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: 500px;
+          gap: 20px;
+        
+          
+        }
+      #container>div{
+    
+          text-align: center;
+      }
+      .photo{
+width: 100%;
+      }
+      button{
+        padding:10px 100px 10px 100px;
+        color: white;
+        background-color: black;
+        border: none;
+      }
+      button:hover{
+        background-color: skyblue;
+      }
+      img{
+        position: relative;
+        width: 100%;
+      }
+      .p{
+        position: absolute;
+        font-size: 30px;
+      
+      }
+      #head{
+        position: absolute;
+        font-size: 50px;
+        bottom: 10px;
+
+        
+      }
+      #abs{
+        position: absolute;
+        width: 40%;
+        bottom: 50px;
+        left: 40px;
+  
+      }
+      input{
+            height: 40px;
+            margin-top: 30px;
+            width: 400px;
+            
+        }
+        #login{
+            display: flex;
+            margin-top: 30px;
+        }
+        .crt{
+            margin-top: 30px;
+        }
+       .pa{
+           text-align: center;
+           font-size: 23px;
+           background-color: rgb(37, 36, 36);
+           color: white;
+           padding: 8px;
+       }
+       .pa:hover{
+           background-color: white;
+           color: black;
+       }
+       hr{
+           border: 1px solid black;
+       }
+       a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+
+      </style>
+</head>
+<body>
+  <div id="navbar">
+    <div>
+<h1 style="margin-left: -100px;font-size: 50px;">SkinStore</h1>
+<p style="margin-top: -40px;margin-left: -90px";>part of LOOKFANTASTIC group</p>
+</div>
+<div>
+<input type="text" placeholder="search for a product"/>
+</div>
+<div id="login">
+        <div><a href="login.html">LOGIN</a></div>
+        <div><a href="signin.html">REGISTER</a></div>
+    </div>
+<div class="crt"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></div>
+</div>
+<hr>
+<a href="Brand.html">Brand</a>
+<a href="Sells.html">Sells</a>
+<a href="Mother's Day.html">Mother's Day</a>
+<a href="Brand">Build Route</a>
+<a href="skincare.html">Skin care</a>
+<a href="hair.html">Hair</a>
+<a href="Brand">Makeup</a>
+<a href="Brand">Self care</a>
+<a href="Brand">Tools</a>
+<a href="Brand">New</a>
+<a href="Brand">Bath & Body</a>
+<a href="Brand">Adivce</a>
+<div id="box">
+    <div><i class="fa-solid fa-truck"></i>FREE US shipping $49</div>
+    
+    <div><i class="fa-solid fa-coins"></i>Refer a Friend Get $50</div>
+    <div><i class="fa-solid fa-clipboard-check"></i>New coustomer SAVE 50%</div>
+    <div><i class="fa-solid fa-check"></i>Free Beauty Consultation</div>
+</div>
+<p class="pa">LATE NIGHT SHOPPING! Save 25% off with code LATE25 | Offer ends at 9AM EST | SHOP NOW ></p>
+  <img src="https://static.thcdn.com/images/xlarge/webp/widgets/121-us/56/Shot_13_1180x450-084056.jpg"/>
+  <div id="abs">
+  <h1 id="head">Hair CARE</h1>
+  <p class="p">Keep your hair looking full of lusture and life all winter long with Skinstore'sextensive range of hair care products.From bands like Christophe Robin Grow Gorgeous,Olaplex & more,we have everyhing you need to keep your hair looking its best.</p>
+  </div> 
+  <div id="container"></div>
+</body>
+</html>
+<script src="hair.js"></script>

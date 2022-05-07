@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #form{
+            width: 40%;
+            margin: auto;
+            padding: 40px;
+            background-color: white;
+            margin-top: 50px;
+        
+        
+        }
+        input{
+            width: 90%;
+            padding: 15px 20px 15px 20px;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 20px;
+        margin-bottom: 50px;
+        }
+        #sub{
+            background-color: black;
+            color: white;
+            border: none;
+            
+        }
+        #sub:hover{
+            color: black;
+            background-color: skyblue;
+        }
+       
+        h1{
+            font-size: 50px;
+            margin-top: 0px;
+        }
+        body{
+            background-color:#F2F2F2;
+            margin: 0px;
+        }
+        #skin{
+            background-color: white;
+            padding: 2px;
+        
+        }
+        #skin>p{
+            margin-top: -35px;
+        }
+       #sel1{
+           margin-bottom: 10px;
+           padding: 5px;
+       }
+       #sel2{
+           margin-bottom: 10px;
+           padding: 5px;
+       }
+      img{
+          width: 80%;
+          height: 120px;
+      }
+      
+    </style>
+</head>
+<body>
+    <div id="skin">
+        <h1>SkinStore</h1>
+            <p>part of LOOKFANTASTIC group</p>
+            </div>
+            
+            <div id="form">
+                <h2>Checkout Page<h2>
+                <h2>Select payment method</h2>
+                <img src="https://strokelifers.com/wp-content/uploads/2022/03/payment-methods-1.png"/>
+            <form>
+                <label>*Card Number</label><br>
+    
+                <input id="card" type="number"/><br>
+                <label>*Name on card</label><br>
+            <input id="name" type="text" /><br>
+            <label>*Expirt date</label><br>
+            <select id="sel1">
+                <option value="JAN">JANUARY</option>
+                <option value="FEB">FEBRAURY</option>
+                <option value="MAR">MARCH</option>
+                <option value="APR">APRIL</option>
+                <option value="MAY">MAY</option>
+                <option value="JUN">JUNE</option>
+                <option value="JUL">JULY</option>
+                <option value="AUG">AUGUST</option>
+                <option value="SEP">SEPTEMBER</option>
+                <option value="OCT">OCTOBER</option>
+                <option value="NOV">NOVEMBER</option>
+                <option value="DEC">DECEMBER</option>
+            </select>
+            <select id="sel2">
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+                <option value="24">2024</option>
+                <option value="25">2025</option>
+                
+            </select>
+            <br>
+            <label>*Security Number</label><br>
+            <input id="num" type="number"  />
+            <br>
+          <input id="sub" type="submit" value="SUBMIT MY ORDER" />
+          <p>By proceeding, you are confirming that you agree to our <b><u>Terms and Conditions </u></b>and <b><u>Privacy Policy </u></b></p>
+          </form>
+          </div>
+   
+    
+</body>
+</html>
+<script src="payment.js">
+    
+    
+</script>
