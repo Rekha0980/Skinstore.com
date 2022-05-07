@@ -13,7 +13,7 @@ function chekFun() {
 
   //console.log(userObj);
   //cardData.push(userObj);
-  if(userObj.number.length<4 ){
+  if(userObj.number.length<3 ){
       alert("wrong CVV")
 
   }
