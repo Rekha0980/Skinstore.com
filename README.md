@@ -5,7 +5,7 @@
 
 # Airship.com
 
-> [Airship](https://www.airship.com/) Theskinstore.in India's premium online platform to buy your best skin care, hair care, hair growth and makeup products.
+> [Skinstore](https://www.airship.com/) skinstore.in India's premium online platform to buy your best skin care, hair care, hair growth and makeup products.
 
 > Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of five members and implemented the maximum user centric functionality.
 
