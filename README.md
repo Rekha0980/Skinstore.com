@@ -7,9 +7,9 @@
 
 > [Skinstore](https://www.airship.com/) skinstore.in India's premium online platform to buy your best skin care, hair care, hair growth and makeup products.
 
-> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of five members and implemented the maximum user centric functionality.
+> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days  and implemented the maximum user centric functionality.
 
-> Group name - dirty-surprise-9313.
+> Individual Project 
 
 # 👉 [Click here](https://creative-liger-fcaa8b.netlify.app/) to go through our work 
 
